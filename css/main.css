@@ -1,0 +1,68 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/* Enable these styles if you wish to go into a grid layout.
+ul#images li {
+    width: 120px;
+    height: auto;
+    display: inline-block;
+    position: relative;
+    float: left;
+}
+
+ul#images li img {
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+
+ul#images li button {
+    display: inline-block;
+}
+
+--- End of grid layout styles. */
+
+ul#images {
+    list-style-type: none;
+}
+
+ul#images .placeholder {
+    font-size: 2em;
+    font-weight: lighter;
+    color: #666;
+    width: 100%;
+    margin: 2em;
+}
+
+.modal-body img {
+   width: 100%;
+   height: auto;
+}
+
+hr {
+    clear:both;
+}
+
+/* ty modifications: */
+
+ul, img, a, div, span {
+    padding: 0;
+    margin: 0;
+}
+
+#images div {
+    display: inline-block;
+    height: 75px;
+    width: 75px;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+img.thumbnail:hover {
+    width: 80px;
+    height: 80px;
+
+}
